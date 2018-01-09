@@ -312,7 +312,7 @@
 				DA2A878B200479FA00AFB3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DA2A878C200479FA00AFB3CE /* Build configuration list for PBXNativeTarget "test-jenkins" */ = {
 			isa = XCConfigurationList;
@@ -321,7 +321,7 @@
 				DA2A878E200479FA00AFB3CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
