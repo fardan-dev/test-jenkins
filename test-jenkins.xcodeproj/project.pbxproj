@@ -124,7 +124,7 @@
 				TargetAttributes = {
 					DAD26D8F2004D93E001C2ED9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -204,7 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 6d60320dfe6683d85dda55a1a9abef74659cda43 3542d7b2e5f5a38124f1c2bf21b201e8d216bf7ea9ae198c3f7f0161b993e7b9";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 37f66c5bfa3d21f503a603605cfaaac73c75097f e297f5d18fca92e69e7567ca3ef063119183793ceda45885c46f66ff5f21efee\n";
 		};
 		FC1E89527B1738832D8BE753 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -367,12 +367,13 @@
 			baseConfigurationReference = 3FC83FD6263C3FF4DFE657E0 /* Pods-test-jenkins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B59GHY5367;
 				INFOPLIST_FILE = "test-jenkins/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indonesia.test-jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ios_profisioning: test-jenkins";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,12 +384,13 @@
 			baseConfigurationReference = 7926C910BBC462F7DB5D6D2C /* Pods-test-jenkins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = B59GHY5367;
 				INFOPLIST_FILE = "test-jenkins/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indonesia.test-jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ios_profisioning: test-jenkins";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
