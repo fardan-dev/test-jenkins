@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA2A877E200479FA00AFB3CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A877D200479FA00AFB3CE /* AppDelegate.swift */; };
-		DA2A8780200479FA00AFB3CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A877F200479FA00AFB3CE /* ViewController.swift */; };
-		DA2A8783200479FA00AFB3CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2A8781200479FA00AFB3CE /* Main.storyboard */; };
-		DA2A8785200479FA00AFB3CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2A8784200479FA00AFB3CE /* Assets.xcassets */; };
-		DA2A8788200479FA00AFB3CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2A8786200479FA00AFB3CE /* LaunchScreen.storyboard */; };
+		DAD26D942004D93E001C2ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD26D932004D93E001C2ED9 /* AppDelegate.swift */; };
+		DAD26D962004D93E001C2ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD26D952004D93E001C2ED9 /* ViewController.swift */; };
+		DAD26D992004D93E001C2ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D972004D93E001C2ED9 /* Main.storyboard */; };
+		DAD26D9B2004D93E001C2ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D9A2004D93E001C2ED9 /* Assets.xcassets */; };
+		DAD26D9E2004D93E001C2ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D9C2004D93E001C2ED9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA2A877A200479FA00AFB3CE /* test-jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2A877D200479FA00AFB3CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2A877F200479FA00AFB3CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA2A8782200479FA00AFB3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA2A8784200479FA00AFB3CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA2A8787200479FA00AFB3CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA2A8789200479FA00AFB3CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD26D902004D93E001C2ED9 /* test-jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-jenkins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD26D932004D93E001C2ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD26D952004D93E001C2ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD26D982004D93E001C2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD26D9A2004D93E001C2ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD26D9D2004D93E001C2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD26D9F2004D93E001C2ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA2A8777200479F900AFB3CE /* Frameworks */ = {
+		DAD26D8D2004D93E001C2ED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA2A8771200479F900AFB3CE = {
+		DAD26D872004D93E001C2ED9 = {
 			isa = PBXGroup;
 			children = (
-				DA2A877C200479FA00AFB3CE /* test-jenkins */,
-				DA2A877B200479FA00AFB3CE /* Products */,
+				DAD26D922004D93E001C2ED9 /* test-jenkins */,
+				DAD26D912004D93E001C2ED9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA2A877B200479FA00AFB3CE /* Products */ = {
+		DAD26D912004D93E001C2ED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA2A877A200479FA00AFB3CE /* test-jenkins.app */,
+				DAD26D902004D93E001C2ED9 /* test-jenkins.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA2A877C200479FA00AFB3CE /* test-jenkins */ = {
+		DAD26D922004D93E001C2ED9 /* test-jenkins */ = {
 			isa = PBXGroup;
 			children = (
-				DA2A877D200479FA00AFB3CE /* AppDelegate.swift */,
-				DA2A877F200479FA00AFB3CE /* ViewController.swift */,
-				DA2A8781200479FA00AFB3CE /* Main.storyboard */,
-				DA2A8784200479FA00AFB3CE /* Assets.xcassets */,
-				DA2A8786200479FA00AFB3CE /* LaunchScreen.storyboard */,
-				DA2A8789200479FA00AFB3CE /* Info.plist */,
+				DAD26D932004D93E001C2ED9 /* AppDelegate.swift */,
+				DAD26D952004D93E001C2ED9 /* ViewController.swift */,
+				DAD26D972004D93E001C2ED9 /* Main.storyboard */,
+				DAD26D9A2004D93E001C2ED9 /* Assets.xcassets */,
+				DAD26D9C2004D93E001C2ED9 /* LaunchScreen.storyboard */,
+				DAD26D9F2004D93E001C2ED9 /* Info.plist */,
 			);
 			path = "test-jenkins";
 			sourceTree = "<group>";
@@ -67,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA2A8779200479F900AFB3CE /* test-jenkins */ = {
+		DAD26D8F2004D93E001C2ED9 /* test-jenkins */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA2A878C200479FA00AFB3CE /* Build configuration list for PBXNativeTarget "test-jenkins" */;
+			buildConfigurationList = DAD26DA22004D93E001C2ED9 /* Build configuration list for PBXNativeTarget "test-jenkins" */;
 			buildPhases = (
-				DA2A8776200479F900AFB3CE /* Sources */,
-				DA2A8777200479F900AFB3CE /* Frameworks */,
-				DA2A8778200479F900AFB3CE /* Resources */,
+				DAD26D8C2004D93E001C2ED9 /* Sources */,
+				DAD26D8D2004D93E001C2ED9 /* Frameworks */,
+				DAD26D8E2004D93E001C2ED9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +81,26 @@
 			);
 			name = "test-jenkins";
 			productName = "test-jenkins";
-			productReference = DA2A877A200479FA00AFB3CE /* test-jenkins.app */;
+			productReference = DAD26D902004D93E001C2ED9 /* test-jenkins.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA2A8772200479F900AFB3CE /* Project object */ = {
+		DAD26D882004D93E001C2ED9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Fardan;
 				TargetAttributes = {
-					DA2A8779200479F900AFB3CE = {
+					DAD26D8F2004D93E001C2ED9 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DA2A8775200479F900AFB3CE /* Build configuration list for PBXProject "test-jenkins" */;
+			buildConfigurationList = DAD26D8B2004D93E001C2ED9 /* Build configuration list for PBXProject "test-jenkins" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = DA2A8771200479F900AFB3CE;
-			productRefGroup = DA2A877B200479FA00AFB3CE /* Products */;
+			mainGroup = DAD26D872004D93E001C2ED9;
+			productRefGroup = DAD26D912004D93E001C2ED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA2A8779200479F900AFB3CE /* test-jenkins */,
+				DAD26D8F2004D93E001C2ED9 /* test-jenkins */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA2A8778200479F900AFB3CE /* Resources */ = {
+		DAD26D8E2004D93E001C2ED9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2A8788200479FA00AFB3CE /* LaunchScreen.storyboard in Resources */,
-				DA2A8785200479FA00AFB3CE /* Assets.xcassets in Resources */,
-				DA2A8783200479FA00AFB3CE /* Main.storyboard in Resources */,
+				DAD26D9E2004D93E001C2ED9 /* LaunchScreen.storyboard in Resources */,
+				DAD26D9B2004D93E001C2ED9 /* Assets.xcassets in Resources */,
+				DAD26D992004D93E001C2ED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA2A8776200479F900AFB3CE /* Sources */ = {
+		DAD26D8C2004D93E001C2ED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2A8780200479FA00AFB3CE /* ViewController.swift in Sources */,
-				DA2A877E200479FA00AFB3CE /* AppDelegate.swift in Sources */,
+				DAD26D962004D93E001C2ED9 /* ViewController.swift in Sources */,
+				DAD26D942004D93E001C2ED9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA2A8781200479FA00AFB3CE /* Main.storyboard */ = {
+		DAD26D972004D93E001C2ED9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA2A8782200479FA00AFB3CE /* Base */,
+				DAD26D982004D93E001C2ED9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DA2A8786200479FA00AFB3CE /* LaunchScreen.storyboard */ = {
+		DAD26D9C2004D93E001C2ED9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA2A8787200479FA00AFB3CE /* Base */,
+				DAD26D9D2004D93E001C2ED9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA2A878A200479FA00AFB3CE /* Debug */ = {
+		DAD26DA02004D93E001C2ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,17 +211,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		DA2A878B200479FA00AFB3CE /* Release */ = {
+		DAD26DA12004D93E001C2ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,23 +262,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DA2A878D200479FA00AFB3CE /* Debug */ = {
+		DAD26DA32004D93E001C2ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B59GHY5367;
 				INFOPLIST_FILE = "test-jenkins/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indonesia.test-jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,14 +285,13 @@
 			};
 			name = Debug;
 		};
-		DA2A878E200479FA00AFB3CE /* Release */ = {
+		DAD26DA42004D93E001C2ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B59GHY5367;
 				INFOPLIST_FILE = "test-jenkins/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indonesia.test-jenkins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA2A8775200479F900AFB3CE /* Build configuration list for PBXProject "test-jenkins" */ = {
+		DAD26D8B2004D93E001C2ED9 /* Build configuration list for PBXProject "test-jenkins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2A878A200479FA00AFB3CE /* Debug */,
-				DA2A878B200479FA00AFB3CE /* Release */,
+				DAD26DA02004D93E001C2ED9 /* Debug */,
+				DAD26DA12004D93E001C2ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA2A878C200479FA00AFB3CE /* Build configuration list for PBXNativeTarget "test-jenkins" */ = {
+		DAD26DA22004D93E001C2ED9 /* Build configuration list for PBXNativeTarget "test-jenkins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2A878D200479FA00AFB3CE /* Debug */,
-				DA2A878E200479FA00AFB3CE /* Release */,
+				DAD26DA32004D93E001C2ED9 /* Debug */,
+				DAD26DA42004D93E001C2ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA2A8772200479F900AFB3CE /* Project object */;
+	rootObject = DAD26D882004D93E001C2ED9 /* Project object */;
 }
