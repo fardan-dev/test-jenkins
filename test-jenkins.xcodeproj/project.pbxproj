@@ -13,7 +13,7 @@
 		DAD26D992004D93E001C2ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D972004D93E001C2ED9 /* Main.storyboard */; };
 		DAD26D9B2004D93E001C2ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D9A2004D93E001C2ED9 /* Assets.xcassets */; };
 		DAD26D9E2004D93E001C2ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD26D9C2004D93E001C2ED9 /* LaunchScreen.storyboard */; };
-		DAD9DBA6200749A100704A41 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAD9DBA5200749A100704A41 /* ReleaseNotes.txt */; };
+		DAD9DBA920074B3800704A41 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAD9DBA820074B3800704A41 /* ReleaseNotes.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		DAD26D9A2004D93E001C2ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD26D9D2004D93E001C2ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAD26D9F2004D93E001C2ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAD9DBA5200749A100704A41 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		DAD9DBA820074B3800704A41 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DAD26D922004D93E001C2ED9 /* test-jenkins */,
-				DAD9DBA4200749A100704A41 /* Notes */,
+				DAD9DBA720074B3800704A41 /* Notes */,
 				DAD26D912004D93E001C2ED9 /* Products */,
 				D2880018AEB916A5B59597B7 /* Pods */,
 				40CF506451969638D4402C07 /* Frameworks */,
@@ -91,13 +91,12 @@
 			path = "test-jenkins";
 			sourceTree = "<group>";
 		};
-		DAD9DBA4200749A100704A41 /* Notes */ = {
+		DAD9DBA720074B3800704A41 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				DAD9DBA5200749A100704A41 /* ReleaseNotes.txt */,
+				DAD9DBA820074B3800704A41 /* ReleaseNotes.txt */,
 			);
-			name = Notes;
-			path = "../../Project-Helpster/Notes";
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD9DBA6200749A100704A41 /* ReleaseNotes.txt in Resources */,
+				DAD9DBA920074B3800704A41 /* ReleaseNotes.txt in Resources */,
 				DAD26D9E2004D93E001C2ED9 /* LaunchScreen.storyboard in Resources */,
 				DAD26D9B2004D93E001C2ED9 /* Assets.xcassets in Resources */,
 				DAD26D992004D93E001C2ED9 /* Main.storyboard in Resources */,
