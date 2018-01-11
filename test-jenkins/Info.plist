@@ -2,20 +2,31 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Fabric</key>
-    <dict>
-        <key>APIKey</key>
-        <string>37f66c5bfa3d21f503a603605cfaaac73c75097f</string>
-        <key>Kits</key>
-        <array>
-            <dict>
-                <key>KitInfo</key>
-                <dict/>
-                <key>KitName</key>
-                <string>Crashlytics</string>
-            </dict>
-        </array>
-    </dict>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.indonesia.test-jenkins</key>
+		<string>ios_profisioning: test-jenkins</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>iOS Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>teamID</key>
+	<string>B59GHY5367</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>37f66c5bfa3d21f503a603605cfaaac73c75097f</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
