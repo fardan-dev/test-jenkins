@@ -5,7 +5,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.indonesia.test-jenkins</key>
-		<string>iPhone Developer: acip setiawan (JQV3636G9Y)</string>
+		<string>421f92dd-e745-4f5f-b34c-e1f25f1957cd</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
