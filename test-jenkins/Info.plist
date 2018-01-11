@@ -5,14 +5,14 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.indonesia.test-jenkins</key>
-		<string>ios_profisioning: test-jenkins</string>
-    </dict>
-    <key>method</key>
-    <string>ad-hoc</string>
-    <key>uploadBitcode</key>
-    <false/>
-    <key>uploadSymbols</key>
-    <true/>
+		<string>iPhone Developer: acip setiawan (JQV3636G9Y)</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>uploadBitcode</key>
+	<false/>
+	<key>uploadSymbols</key>
+	<true/>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
