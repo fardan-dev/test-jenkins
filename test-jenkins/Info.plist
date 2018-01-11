@@ -8,11 +8,13 @@
 		<string>421f92dd-e745-4f5f-b34c-e1f25f1957cd</string>
 	</dict>
 	<key>method</key>
-	<string>ad-hoc</string>
+	<string>development</string>
 	<key>uploadBitcode</key>
 	<false/>
 	<key>uploadSymbols</key>
 	<true/>
+	<key>teamID</key>
+	<string>B59GHY5367</string>
 	<key>Fabric</key>
 	<dict>
 		<key>APIKey</key>
