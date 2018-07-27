@@ -1,0 +1,8 @@
+app_identifier("com.indonesia.test-jenkins") # The bundle identifier of your app
+apple_id("fardan@helpster.asia") # Your Apple email address
+
+itc_team_id("118066314") # iTunes Connect Team ID
+team_id("L8CMU76V7B") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -94,7 +94,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "${PODS_ROOT}/Crashlytics.framework/submit 37f66c5bfa3d21f503a603605cfaaac73c75097f e297f5d18fca92e69e7567ca3ef063119183793ceda45885c46f66ff5f21efee \&#10;-ipaPath ~/.jenkins/workspace/test-jenkins/ipa-dir/test_jenkins-${BUILD_ID}.ipa -emails fardan.wardhana@gmail.com \&#10;-notesPath ~/Notes/ReleaseNotes.txt \&#10;-groupAliases Hallo \&#10;-notifications YES">
+               scriptText = "${PODS_ROOT}/Crashlytics.framework/submit 37f66c5bfa3d21f503a603605cfaaac73c75097f e297f5d18fca92e69e7567ca3ef063119183793ceda45885c46f66ff5f21efee \&#10;-emails fardan.wardhana@gmail.com \&#10;-notesPath ~/Notes/ReleaseNotes.txt \&#10;-groupAliases Hallo \&#10;-notifications YES">
             </ActionContent>
          </ExecutionAction>
       </PostActions>

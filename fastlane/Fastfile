@@ -1,0 +1,21 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :beta do
+  build_app
+  crashlytics(api_token: "37f66c5bfa3d21f503a603605cfaaac73c75097f",
+              build_secret: "e297f5d18fca92e69e7567ca3ef063119183793ceda45885c46f66ff5f21efee")
+  end
+end
